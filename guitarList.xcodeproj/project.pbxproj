@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C441B271E425C8400BDA77B /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C441B261E425C8400BDA77B /* AddItemViewController.swift */; };
 		9C551C021E2FDF7700E4FC3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C551C011E2FDF7700E4FC3B /* AppDelegate.swift */; };
 		9C551C041E2FDF7700E4FC3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C551C031E2FDF7700E4FC3B /* ViewController.swift */; };
 		9C551C071E2FDF7700E4FC3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C551C051E2FDF7700E4FC3B /* Main.storyboard */; };
@@ -14,6 +15,10 @@
 		9C551C0C1E2FDF7700E4FC3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C551C0A1E2FDF7700E4FC3B /* LaunchScreen.storyboard */; };
 		9C551C171E2FDF7700E4FC3B /* guitarListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C551C161E2FDF7700E4FC3B /* guitarListTests.swift */; };
 		9C551C221E2FDF7700E4FC3B /* guitarListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C551C211E2FDF7700E4FC3B /* guitarListUITests.swift */; };
+		9C551C321E2FE33D00E4FC3B /* GuitarCustomViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C551C311E2FE33D00E4FC3B /* GuitarCustomViewCell.swift */; };
+		9C551C341E2FE87F00E4FC3B /* GuitarCustomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C551C331E2FE87F00E4FC3B /* GuitarCustomTableViewController.swift */; };
+		9CA15B721E313343005F7842 /* Guitar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA15B711E313343005F7842 /* Guitar.swift */; };
+		9CA15B801E313AC5005F7842 /* GuitarDetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA15B7F1E313AC5005F7842 /* GuitarDetailedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9C441B261E425C8400BDA77B /* AddItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
 		9C551BFE1E2FDF7700E4FC3B /* guitarList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = guitarList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C551C011E2FDF7700E4FC3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C551C031E2FDF7700E4FC3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,10 @@
 		9C551C1D1E2FDF7700E4FC3B /* guitarListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = guitarListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C551C211E2FDF7700E4FC3B /* guitarListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = guitarListUITests.swift; sourceTree = "<group>"; };
 		9C551C231E2FDF7700E4FC3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C551C311E2FE33D00E4FC3B /* GuitarCustomViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GuitarCustomViewCell.swift; path = ../GuitarCustomViewCell.swift; sourceTree = "<group>"; };
+		9C551C331E2FE87F00E4FC3B /* GuitarCustomTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuitarCustomTableViewController.swift; sourceTree = "<group>"; };
+		9CA15B711E313343005F7842 /* Guitar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Guitar.swift; sourceTree = "<group>"; };
+		9CA15B7F1E313AC5005F7842 /* GuitarDetailedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuitarDetailedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +107,17 @@
 		9C551C001E2FDF7700E4FC3B /* guitarList */ = {
 			isa = PBXGroup;
 			children = (
+				9C551C311E2FE33D00E4FC3B /* GuitarCustomViewCell.swift */,
 				9C551C011E2FDF7700E4FC3B /* AppDelegate.swift */,
 				9C551C031E2FDF7700E4FC3B /* ViewController.swift */,
 				9C551C051E2FDF7700E4FC3B /* Main.storyboard */,
+				9CA15B7F1E313AC5005F7842 /* GuitarDetailedViewController.swift */,
+				9CA15B711E313343005F7842 /* Guitar.swift */,
+				9C551C331E2FE87F00E4FC3B /* GuitarCustomTableViewController.swift */,
 				9C551C081E2FDF7700E4FC3B /* Assets.xcassets */,
 				9C551C0A1E2FDF7700E4FC3B /* LaunchScreen.storyboard */,
 				9C551C0D1E2FDF7700E4FC3B /* Info.plist */,
+				9C441B261E425C8400BDA77B /* AddItemViewController.swift */,
 			);
 			path = guitarList;
 			sourceTree = "<group>";
@@ -257,6 +272,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C551C041E2FDF7700E4FC3B /* ViewController.swift in Sources */,
+				9C551C321E2FE33D00E4FC3B /* GuitarCustomViewCell.swift in Sources */,
+				9CA15B801E313AC5005F7842 /* GuitarDetailedViewController.swift in Sources */,
+				9C551C341E2FE87F00E4FC3B /* GuitarCustomTableViewController.swift in Sources */,
+				9C441B271E425C8400BDA77B /* AddItemViewController.swift in Sources */,
+				9CA15B721E313343005F7842 /* Guitar.swift in Sources */,
 				9C551C021E2FDF7700E4FC3B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +504,7 @@
 				9C551C281E2FDF7700E4FC3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C551C291E2FDF7700E4FC3B /* Build configuration list for PBXNativeTarget "guitarListTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +513,7 @@
 				9C551C2B1E2FDF7700E4FC3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C551C2C1E2FDF7700E4FC3B /* Build configuration list for PBXNativeTarget "guitarListUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +522,7 @@
 				9C551C2E1E2FDF7700E4FC3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
